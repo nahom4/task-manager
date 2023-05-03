@@ -11,11 +11,11 @@ The web site is developed using Nest js and mysql databse for the back end and h
 ```
 step 1 - The user needs to clone this repository on thier machine.
 step 2 - After opening the folder containing the project on the command line or vscode, the user
-should run the `npm install` command and this will install all the necessary dependencies.
+should run the **npm install** command and this will install all the necessary dependencies.
 step 3 - The user should go to the environment file and change user name and password to thier
 user name and password on the mysql server.
 step 4 - The user should create a database called task_management on mysql server.
-step 5 - run `npm run start:dev` command to run the Nest programm
+step 5 - run **npm run start:dev** command to run the Nest programm
 step 6 - From the front end folder in the src file open the signup.html file in a browser, after this step the user can freely use the website.
 
 ```
