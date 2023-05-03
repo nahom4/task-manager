@@ -10,10 +10,8 @@ export class AuthService {
     constructor(private userSevice:UsersService,private jwtService : JwtService) {}
 
     async signIn(signInData: SignInData){
-        console.log(signInData)
         const userName = signInData.userName
         const password = signInData.password
-        console.log(password)
         const user = await this.userSevice.findOne(userName)
         const isMatch = await bcrypt.compare(password, user.password);
       

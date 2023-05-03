@@ -10,6 +10,8 @@ export class Task {
     description : string
     @Column({default : 'in progress',nullable : true})
     status : string
+    @Column()
+    dueDate : string
     @ManyToOne(() => User,(user) => user.tasks)
     @JoinColumn()
     user: User
